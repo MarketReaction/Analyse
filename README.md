@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/MarketReaction/Crawler.svg?branch=master)](https://travis-ci.org/MarketReaction/Crawler)
+[![Build Status](https://travis-ci.org/MarketReaction/Analyse.svg?branch=master)](https://travis-ci.org/MarketReaction/Analyse)
