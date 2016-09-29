@@ -10,7 +10,7 @@ install:
   - mvn clean compile -DskipTests
   - mvn test
   - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
-  - mvn install -DskipTests -Pdefault,docker
+  - mvn --quiet install -DskipTests -Pdefault,docker
 
 after_success:
   - mvn deploy -DskipTests -Pdocker
