@@ -18,5 +18,5 @@ after_success:
 # before_deploy:
   # - docker tag -f marketreaction/analyse:TRAVIS_BUILD_NUMBER marketreaction/analyse:latest
 
-deploy:
-  - docker push marketreaction/analyse:latest
+# deploy:
+  # - docker push marketreaction/analyse:latest
