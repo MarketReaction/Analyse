@@ -59,6 +59,8 @@ public class CompanyIndexerListener implements MessageListener
             final TextMessage textMessage = (TextMessage) message;
             try
             {
+                message.acknowledge();
+
                 Company company = companyRepository.findOne(textMessage.getText());
                 Exchange exchange = exchangeRepository.findOne(company.getExchange());
 
